@@ -169,7 +169,9 @@ make clean && make
 
 首先用终端安装python-pip
 
-	sudo apt-get install python-pip
+```sh
+sudo apt-get install python-pip
+```
 	
 为了加快之后安装tensorflow-gpu的速度，我们将pip源修改为清华大学的源
 
