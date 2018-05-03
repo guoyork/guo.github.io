@@ -3,12 +3,12 @@ layout: app
 ---
 
 * * *
-## [tensorflow-gpu的配置和安装](./blog/blog_2.html)
+## [tensorflow-gpu的配置和安装](./blog/2)
 重装了十几次系统才搞定，对Ubuntu还是不太熟悉
 
 * * *
 
-## [搬家后第一篇博客](./blog/blog_1.html)
+## [搬家后第一篇博客](./blog/1)
 github的网站用起来比较麻烦，但是DIY功能也相对更丰富了，慢慢熟悉吧
 
 * * *
