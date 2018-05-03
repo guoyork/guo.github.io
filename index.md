@@ -1,4 +1,8 @@
 ---
+layout: default
+---
+
+---
 ## [tensorflow-gpu的配置和安装](./blog_2.html)
 重装了十几次系统才搞定，对Ubuntu还是不太熟悉
 ---
