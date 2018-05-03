@@ -3,6 +3,10 @@ layout: app
 ---
 
 * * *
+## [Ubuntu Kylin 16.04 BUG及解决方案收集](./blog/3)
+主要收录一些常见BUG和解决方法，减少未来重装系统的次数
+
+* * *
 ## [tensorflow-gpu的配置和安装](./blog/2)
 重装了十几次系统才搞定，对Ubuntu还是不太熟悉
 
