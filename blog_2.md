@@ -162,11 +162,13 @@ layout: default
 
 新建sample.py文件，在文件内输入
 
+```python
 	import tensorflow as tf
 	hello = tf.constant(‘Hello World!’)
 	sess = tf.Session()
 	print(sess.run(hello))
-	
+```
+
 再终端中运行该程序
 
 	python sample.py
