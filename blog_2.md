@@ -123,5 +123,56 @@ layout: default
 	sudo dpkg -i libcudnn7_7.1.3.16-1+cuda9.1_amd64.deb
 	sudo dpkg -i libcudnn7-dev_7.1.3.16-1+cuda9.1_amd64.deb
 	sudo dpkg -i libcudnn7-doc_7.1.3.16-1+cuda9.1_amd64.deb
+	
+安装完成后，我们检查是否安装成功
 
+打开终端测试样例程序
+
+	cp -r /usr/src/cudnn_samples_v7 $HOME
+	cd $HOME/cudnn_samples_v7/mnistCUDNN
+	make clean && make
+	./mnistCUDNN
+
+如果安装成功，会出现“Test passed!”信息
+
+### 安装tensorflow-gpu
+
+首先用终端安装python-pip
+
+	sudo apt-get install python-pip
+	
+为了加快之后安装tensorflow-gpu的速度，我们将pip源修改为清华大学的源
+
+	sudo mkdir ~/.pip
+	sudo gedit ~/.pip/pip.conf
+	
+在文件内输入
+
+	[global]
+	index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+	
+并保存即可
+
+之后在终端运行
+
+	sudo pip install numpy
+	sudo pip install tensorflow-gpu
+	
+检查是否安装成功
+
+新建sample.py文件，在文件内输入
+
+	import tensorflow as tf
+	hello = tf.constant(‘Hello World!’)
+	sess = tf.Session()
+	print(sess.run(hello))
+	
+再终端中运行该程序
+
+	python sample.py
+	
+如果输出Hello World!则说明安装成功，Congratulations！
+
+如果安装失败，可以尝试重装系统，换一份教程。。
+	
 [back](./)
