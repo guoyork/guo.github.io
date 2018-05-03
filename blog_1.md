@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 ---
 
 # 搬家后的第一篇博客
