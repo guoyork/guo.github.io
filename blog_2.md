@@ -11,8 +11,7 @@ layout: default
 
 打开终端，运行
 
-	sudo apt-get update
-	
+	sudo apt-get update	
 	sudo apt-get upgrade
 
 这个步骤需要花比较多的时间
@@ -31,8 +30,7 @@ layout: default
 	
 在文件中输入
 	
-	blacklist nouveau 
-	
+	blacklist nouveau
 	options nouveau modeset=0
 	
 之后关闭并保存文件
@@ -45,7 +43,7 @@ layout: default
 
 ### 安装CUDA 9.0
 
-** CUDA 9.1的版本已经出了，但是tensorflow-gpu还不支持，所以使用老版本的CUDA 9.0 **
+**CUDA 9.1的版本已经出了，但是tensorflow-gpu还不支持，所以使用老版本的CUDA 9.0**
 
 打开[CUDA9.0官网](https://developer.nvidia.com/cuda-90-download-archive)
 
@@ -95,7 +93,6 @@ layout: default
 3. 编译sample，这一步需要大概10~20分钟，如果出错会立刻停止
 
 		cd /home/user_name/NVIDIA_CUDA-9.0_Samples
-	
 		sudo make
 		
 	如果编译成功会显示Finished building CUDA samples
@@ -103,7 +100,6 @@ layout: default
 4. 运行编译完的sample
 
 		cd bin/x86_64/linux/release
-	
 		./deviceQuery
 	
 	如果输出Result = PASS则成功
@@ -125,9 +121,7 @@ layout: default
 打开终端进行安装
 
 	sudo dpkg -i libcudnn7_7.1.3.16-1+cuda9.1_amd64.deb
-	
 	sudo dpkg -i libcudnn7-dev_7.1.3.16-1+cuda9.1_amd64.deb
-	
 	sudo dpkg -i libcudnn7-doc_7.1.3.16-1+cuda9.1_amd64.deb
 
 [back](./)
