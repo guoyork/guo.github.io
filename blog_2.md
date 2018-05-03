@@ -43,7 +43,9 @@ layout: default
 
 之后重启即可
 
-### 安装CUDA9.0
+### 安装CUDA 9.0
+
+** CUDA 9.1的版本已经出了，但是tensorflow-gpu还不支持，所以使用老版本的CUDA 9.0 **
 
 打开[CUDA9.0官网](https://developer.nvidia.com/cuda-90-download-archive)
 
@@ -95,6 +97,8 @@ layout: default
 		cd /home/user_name/NVIDIA_CUDA-9.0_Samples
 	
 		sudo make
+		
+	如果编译成功会显示Finished building CUDA samples
 	
 4. 运行编译完的sample
 
@@ -102,12 +106,28 @@ layout: default
 	
 		./deviceQuery
 	
-5. 如果输出Result = PASS则成功，否则会输出Result = FAIL
+	如果输出Result = PASS则成功
 
-6. 最后检查CUDA-Capable deviced的连接情况
+5. 最后检查CUDA-Capable deviced的连接情况
 
 		./bandwidthTest
+		
+	如果输出Result = PASS则成功
 	
-### 安装cuDNN
+### 安装cuDNN 7.1.3 for CUDA 9.0
+
+打开[cuDNN官网](https://developer.nvidia.com/cudnn)
+
+![avator](/blog_2_3.png)
+
+下载最下面3个关于Ubuntu的deb文件
+
+打开终端进行安装
+
+	sudo dpkg -i libcudnn7_7.1.3.16-1+cuda9.1_amd64.deb
+	
+	sudo dpkg -i libcudnn7-dev_7.1.3.16-1+cuda9.1_amd64.deb
+	
+	sudo dpkg -i libcudnn7-doc_7.1.3.16-1+cuda9.1_amd64.deb
 
 [back](./)
