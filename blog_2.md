@@ -155,18 +155,20 @@ layout: default
 
 之后在终端运行
 
-	sudo pip install numpy
-	sudo pip install tensorflow-gpu
+```sh
+sudo pip install numpy
+sudo pip install tensorflow-gpu
+```
 	
 检查是否安装成功
 
 新建sample.py文件，在文件内输入
 
 ```python
-	import tensorflow as tf
-	hello = tf.constant(‘Hello World!’)
-	sess = tf.Session()
-	print(sess.run(hello))
+import tensorflow as tf
+hello = tf.constant('Hello World!')
+sess = tf.Session()
+print(sess.run(hello))
 ```
 
 再终端中运行该程序
