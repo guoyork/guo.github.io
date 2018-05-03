@@ -84,29 +84,29 @@ layout: default
 
 1. 检查显卡驱动是否安装成功
 
-	cat /proc/driver/nvidia/version
+		cat /proc/driver/nvidia/version
 	
 2. 验证CUDA Toolkit
 	
-	nvcc -V
+		nvcc -V
 	
 3. 编译sample，这一步需要大概10~20分钟，如果出错会立刻停止
 
-	cd /home/user_name/NVIDIA_CUDA-9.0_Samples
+		cd /home/user_name/NVIDIA_CUDA-9.0_Samples
 	
-	sudo make
+		sudo make
 	
 4. 运行编译完的sample
 
-	cd bin/x86_64/linux/release
+		cd bin/x86_64/linux/release
 	
-	./deviceQuery
+		./deviceQuery
 	
 5. 如果输出Result = PASS则成功，否则会输出Result = FAIL
 
 6. 最后检查CUDA-Capable deviced的连接情况
 
-	./bandwidthTest
+		./bandwidthTest
 	
 ### 安装cuDNN
 
