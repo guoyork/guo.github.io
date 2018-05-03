@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: asfas
 ---
 
 # 搬家后的第一篇博客
