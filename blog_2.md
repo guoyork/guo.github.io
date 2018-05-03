@@ -212,5 +212,3 @@ python sample.py
 如果输出Hello World!则说明安装成功，Congratulations！
 
 如果安装失败，可以尝试重装系统，换一份教程。。
-	
-[back](./)
