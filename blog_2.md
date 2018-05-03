@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: app
 ---
 
 # tensorflow-gpu的配置和安装
