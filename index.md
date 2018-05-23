@@ -3,6 +3,10 @@ layout: app
 ---
 
 * * *
+## [游戏AI中的算法大作业——斗地主AI](./blog/4)
+学校的程设课和AI课同时布置了写斗地主AI的大作业，所以和Universe_hcy，David_xu一起做了这个项目。
+
+* * *
 ## [Ubuntu Kylin 16.04 BUG及解决方案收集](./blog/3)
 主要收录一些常见BUG和解决方法，减少未来重装系统的次数
 
