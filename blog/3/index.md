@@ -37,3 +37,24 @@ if __name__ == '__main__':
 ```
 
 保存退出即可
+
+### git错误
+
+一般表现为
+
+```sh
+git-remote-https: symbol lookup error: /usr/lib/x86_64-linux-gnu/libhogweed.so.4: undefined symbol: __gmpn_cnd_add_n
+```
+
+基本为文件链接错误，调用`ldd`查看文件链接信息
+
+```sh
+ldd /usr/lib/x86_64-linux-gnu/libhogweed.so.×
+```
+
+将链接错误的文件删除即可。
+
+
+```sh
+sudo rm /usr/local/lib/libgmp.so.×
+```
