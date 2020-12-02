@@ -40,7 +40,6 @@ mv /usr/bin/sqlite3 /usr/bin/sqlite3_old
 ## 把新版本复制到目标路径
 cp sqlite3 /usr/bin/sqlite3
 ## 检查是否成功
-
 ```
 
 ### 安装python3
