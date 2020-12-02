@@ -4,12 +4,6 @@ layout: app
 
 # 阿里云CentOS服务器配置
 
-## 机器配置信息
-
-![image-20200730134341844](C:\Users\hzh\AppData\Roaming\Typora\typora-user-images\image-20200730134341844.png)
-
-* * *
-
 ## 机器基础配置
 
 ### 远程连接
