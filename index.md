@@ -8,5 +8,5 @@ My research interest lies in the intersection of computer science and economics:
 
 I will study for my PhD under the guidance of Yuqing Kong.
 
-*contact: nbdhhzh [at] pku [dot] edu [dot] cn*
+**contact: nbdhhzh [at] pku [dot] edu [dot] cn**
 
