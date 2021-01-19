@@ -1,12 +1,26 @@
 ---
-layout: home
+layout: app
 ---
 
-I’m Zhihuan Huang, a final-year undergrad at Turing Class, Peking University, where I am fortunate to be advised by Yuqing Kong. I am also pleased to have worked with Tracy Xiao Liu and Grant Schoenebeck during my undergraduate years.
+* * *
+## [阿里云CentOS服务器配置](./5)
+在阿里云的服务器上部署了一下网站
 
-My research interest lies in the intersection of computer science and economics: algorithmic game theory, information elicitation, mechanism design and block chain.
+* * *
+## [游戏AI中的算法大作业——斗地主AI](./4)
+学校的程设课和AI课同时布置了写斗地主AI的大作业，所以和Universe_hcy，David_xu一起做了这个项目。
 
-I will study for my PhD under the guidance of Yuqing Kong.
+* * *
+## [Ubuntu Kylin 16.04 BUG及解决方案收集](./3)
+主要收录一些常见BUG和解决方法，减少未来重装系统的次数
 
-*contact: nbdhhzh [at] pku [dot] edu [dot] cn*
+* * *
+## [tensorflow-gpu的配置和安装](./2)
+重装了十几次系统才搞定，对Ubuntu还是不太熟悉
 
+* * *
+
+## [搬家后第一篇博客](./1)
+github的网站用起来比较麻烦，但是DIY功能也相对更丰富了，慢慢熟悉吧
+
+* * *
