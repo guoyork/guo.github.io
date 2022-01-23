@@ -5,9 +5,7 @@ layout: home
 <table border="0">
     <tr>
         <td width="70%">
-            <h1 class="mb-0">ZHIHUAN
-                <span color="blue">HUANG</span>
-            </h1>
+            <h1 class="mb-0"><b>ZHIHUAN HUANG</b></h1>
             <p>PHD</p>
             <p>THE CENTER ON FRONTIERS OF COMPUTING STUDIES (CFCS)</p>
             <p>PEKING UNIVERSITY</p>
@@ -20,8 +18,16 @@ layout: home
     </tr>
 </table>
 
-I’m Zhihuan Huang, a final-year undergrad at Turing Class, Peking University, where I am fortunate to be advised by Yuqing Kong. I am also pleased to have worked with Tracy Xiao Liu and Grant Schoenebeck during my undergraduate years.
+I'm a first year graduate student in CFCS, Peking University. 
 
-My research interest lies in the intersection of computer science and economics: algorithmic game theory, information elicitation, mechanism design and block chain.
+My research interest lies in the intersection of computer science and economics: gamification, algorithmic game theory, information elicitation and mechanism design.
 
-I will study for my PhD under the guidance of Yuqing Kong.
+I'm studying for my PhD under the guidance of Yuqing Kong.
+
+### PUBLICATIONS
+
+##### 2022
+Z. Huang*, Y. Kong, X. Liu and G. Schoenebeck, S. Xu*, "BONUS! Maximizing Surprise." in Proceedings of The Web Conference 2022 (WWW '22)
+
+##### 2021
+Z. Huang*, S. Xu*, Y. Shan, Y. Lu, Y. Kong, X. Liu and G. Schoenebeck, "SURPRISE! and When to Schedule It." in Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI-21)
