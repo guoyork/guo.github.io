@@ -36,7 +36,9 @@ layout: app
 
 ### 区分器Distinguisher
 
-定义函数的集合：$$\mathcal{A}=\{A:\{0,1\}^n\rightarrow \{0,1\}^*\}$$
+定义函数的集合：
+
+$$\mathcal{A}=\left\{A:\left \{ 0,1 \right \}^n\rightarrow \left \{ 0,1 \right \}^*\right\}$$
 
 集合中的这些函数称之为区分器，用来区分一个长度为n的随机数是否是伪随机数。
 
@@ -44,11 +46,13 @@ layout: app
 
 ### 伪随机生成器Pseudorandom generator
 
-定义$$G:\{0,1\}^l\rightarrow\{0,1\}^n,(l<n)$$ 
+定义
+
+$$G:\left \{ 0,1 \right \}^l\rightarrow\left \{ 0,1 \right \}^n,(l<n)$$ 
 
 是对抗区分器$\mathcal{A}$的伪随机数生成器。
 
-令$U_k$是$\{0,1\}^k$中的均匀分布，
+令$U_k$是$\left \{ 0,1 \right \}^k$中的均匀分布，
 
 对于$\mathcal{A}$中的任意函数$A$，$A(G(U_l))$和$A(U_n)$的分布相差都不超过$\epsilon$时，即说明$G$是能对抗区分器集合$\mathcal{A}$的伪随机生成器。
 
@@ -56,20 +60,26 @@ layout: app
 
 ### 伪随机数生成器Pseudorandom number generator
 
-定义$$G_k:\{0,1\}^k\rightarrow\{0,1\}^{p(k)},(\forall k,p(k)>k)$$，是输入长度为$k$的种子并输出长度为$p(k)$的伪随机数生成器。其中$p(k)$是关于k的多项式。
+定义
+
+$$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^{p(k)},(\forall k,p(k)>k)$$
+
+是输入长度为$k$的种子并输出长度为$p(k)$的伪随机数生成器。其中$p(k)$是关于k的多项式。
 
 对于任何多项式算法$A$，以$0,1$作为输出，我们有
 
-$$\left|\Pr_{x\leftarrow\{0,1\}^k}[A(G(x))=1]-\Pr_{x\leftarrow\{0,1\}^{p(k)}}[A(r)=1]\right|<\mu(k)$$
+$$\left|\Pr_{x\leftarrow\left \{ 0,1 \right \}^k}[A(G(x))=1]-\Pr_{x\leftarrow\left \{ 0,1 \right \}^{p(k)}}[A(r)=1]\right|<\mu(k)$$
 
-其中，$\mu(k)$​​ 是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$​​​。$x\leftarrow\{0,1\}^k$​表示$x$​是长度为$k$的真随机二进制数。
+其中，$\mu(k)$​​ 是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$​​​。$x\leftarrow\left \{ 0,1 \right \}^k$​表示$x$​是长度为$k$的真随机二进制数。
 
 
 ### 前向安全伪随机数生成器forward-secure PRNG
 
 通常来说，我们在计算机中使用的伪随机数生成器，除了会生成随机数外，还会生成下一轮的随机种子，使得生成器能连续不断地生成新的随机数。
 
-因此，我们定义前向安全伪随机生成器$G_k:\{0,1\}^k\rightarrow\{0,1\}^k\times \{0,1\}^{t(k)}$​
+因此，我们定义前向安全伪随机生成器
+
+$$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^k\times \left \{ 0,1 \right \}^{t(k)}$​$
 
 可以同时生成下一个随机种子和伪随机数。
 
