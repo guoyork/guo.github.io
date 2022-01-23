@@ -52,7 +52,7 @@ $$G:\left \{ 0,1 \right \}^l\rightarrow\left \{ 0,1 \right \}^n,(l<n)$$
 
 是对抗区分器$\mathcal{A}$的伪随机数生成器。
 
-令$U_k$是$\left \{ 0,1 \right \}^k$中的均匀分布，
+令$U_k$是$\begin{Bmatrix}0,1\end{Bmatrix}^k$中的均匀分布，
 
 对于$\mathcal{A}$中的任意函数$A$，$A(G(U_l))$和$A(U_n)$的分布相差都不超过$\epsilon$时，即说明$G$是能对抗区分器集合$\mathcal{A}$的伪随机生成器。
 
@@ -70,7 +70,7 @@ $$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^{p(k)},(\forall 
 
 $$\left|\Pr_{x\leftarrow\left \{ 0,1 \right \}^k}[A(G(x))=1]-\Pr_{x\leftarrow\left \{ 0,1 \right \}^{p(k)}}[A(r)=1]\right|<\mu(k)$$
 
-其中，$\mu(k)$​​ 是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$​​​。$x\leftarrow\left \{ 0,1 \right \}^k$​表示$x$​是长度为$k$的真随机二进制数。
+其中，$\mu(k)$​​ 是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$​​​。$x\leftarrow\begin{Bmatrix}0,1\end{Bmatrix}^k$​表示$x$​是长度为$k$的真随机二进制数。
 
 
 ### 前向安全伪随机数生成器forward-secure PRNG
