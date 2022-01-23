@@ -27,7 +27,7 @@ I'm studying for my PhD under the guidance of Yuqing Kong.
 ### PUBLICATIONS
 
 ##### 2022
-Z. Huang*, Y. Kong, X. Liu and G. Schoenebeck, S. Xu*, "BONUS! Maximizing Surprise." in Proceedings of The Web Conference 2022 (WWW '22)
+Z. Huang, Y. Kong, X. Liu and G. Schoenebeck, S. Xu, "BONUS! Maximizing Surprise." in Proceedings of The Web Conference 2022 (WWW '22)
 
 ##### 2021
-Z. Huang*, S. Xu*, Y. Shan, Y. Lu, Y. Kong, X. Liu and G. Schoenebeck, "SURPRISE! and When to Schedule It." in Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI-21)
+Z. Huang\*, S. Xu\*, Y. Shan, Y. Lu, Y. Kong, X. Liu and G. Schoenebeck, "SURPRISE! and When to Schedule It." in Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI-21)
