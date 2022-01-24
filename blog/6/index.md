@@ -70,7 +70,7 @@ $$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^{p(k)},(\forall 
 
 $$\left|\Pr_{x\leftarrow\left \{ 0,1 \right \}^k}[A(G(x))=1]-\Pr_{x\leftarrow\left \{ 0,1 \right \}^{p(k)}}[A(r)=1]\right|<\mu(k)$$
 
-其中，$\mu(k)$​​ 是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$​​​。$x\leftarrow\begin{Bmatrix}0,1\end{Bmatrix}^k$​表示$x$​是长度为$k$的真随机二进制数。
+其中，$\mu(k)$是极小函数，即满足$\mu(k)<\frac{1}{poly(k)}$。$x\leftarrow\begin{Bmatrix}0,1\end{Bmatrix}^k$​表示$x$​是长度为$k$的真随机二进制数。
 
 
 ### 前向安全伪随机数生成器forward-secure PRNG
@@ -79,7 +79,7 @@ $$\left|\Pr_{x\leftarrow\left \{ 0,1 \right \}^k}[A(G(x))=1]-\Pr_{x\leftarrow\le
 
 因此，我们定义前向安全伪随机生成器
 
-$$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^k\times \left \{ 0,1 \right \}^{t(k)}$​$
+$$G_k:\left \{ 0,1 \right \}^k\rightarrow\left \{ 0,1 \right \}^k\times \left \{ 0,1 \right \}^{t(k)}$$
 
 可以同时生成下一个随机种子和伪随机数。
 
